@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Évaluation de l'élève</title>
+    <link rel="stylesheet" href="template03.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Évaluation de l'élève</h2>
+
+        <hr> <!-- Ligne de séparation -->
+
+        <form id="evaluationForm"> <!-- Retiré 'method' et 'action' -->
+            <label for="name">Nom et Prénom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="level">Niveau scolaire :</label>
+            <input type="text" id="level" name="level" required>
+
+            <hr> <!-- Ligne de séparation -->
+
+            <label for="subject">Matière :</label>
+            <select id="subject" name="subject" required>
+                <option value="" disabled selected>Choisissez une matière</option>
+                <option value="Mathématiques">Mathématiques</option>
+                <option value="Physique">Physique</option>
+                <option value="Chimie">Chimie</option>
+                <option value="Informatique">Informatique</option>
+                <option value="Biologie">Biologie</option>
+            </select>
+
+            <br> 
+
+            <label>Note :</label>
+            <div class="radio-options">
+                <input type="radio" id="note-bien" name="grade" value="Bien" required>
+                <label for="note-bien">Bien</label>
+
+                <input type="radio" id="note-moyen" name="grade" value="Moyen" required>
+                <label for="note-moyen">Moyen</label>
+
+                <input type="radio" id="note-faible" name="grade" value="Faible" required>
+                <label for="note-faible">Faible</label>
+            </div>
+
+            <hr> <!-- Ligne de séparation -->
+
+            <textarea name="message" rows="7" placeholder="Observations"></textarea>
+
+            <button type="submit">Envoyer</button> <!-- Changement de type en submit -->
+        </form>
+        <p id="responseMessage"></p>
+    </div>
+
+    <script src="Google Sheet.js"></script> <!-- Vérifiez le nom du fichier JavaScript -->
+</body>
+</html>

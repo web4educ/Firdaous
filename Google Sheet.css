@@ -1,0 +1,66 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'poppins', sans-serif;
+   font-size: 18px;
+}
+body{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container{
+   width: 500px;
+   padding: 30px;
+   border: 1px solid #f0eee4;
+   border-radius: 10px;
+   background-color: #5dcf92;
+}
+
+
+/*lignes ajoutées ou modifiées par moi de 24 à 37*/
+.alignment{
+   display: flex;
+   flex-direction: row;
+}
+
+.alignment input{
+   margin-top: 5px;
+   width: 5%;
+}
+
+.alignment label{
+   width: 100%;
+   padding: 5px;
+}
+
+
+h4{
+   margin-bottom: 10px;
+   font-size: 24px;
+   color: rgba(4, 4, 8, 0.867);
+   text-align: center;
+}
+input{
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+
+}
+textarea{
+   width: 100%;
+   padding: 10px;
+}
+#submit{
+   border: none;
+   background-color: orangered;
+   color: white;
+   width: 200px;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+#submit:hover{
+   background-color: #333333;
+}
