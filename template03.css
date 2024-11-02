@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+ }
+ 
+ body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f9;
+ }
+ 
+ .form-container {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #f0eee4;
+    border-radius: 10px;
+    background-color: #5dcf92;
+ }
+ 
+ h2 {
+    font-size: 24px;
+    color: rgba(79, 48, 36, 0.867);
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ 
+ /* Style des labels et des champs de texte */
+ label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+ }
+ 
+ input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #ffffff;
+ }
+
+
+ textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #ffffff;
+    resize: vertical; /* Permet de redimensionner en hauteur seulement */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+ }
+ 
+ 
+ /* Boutons radio */
+ .radio-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+ }
+ 
+ .radio-options label {
+    margin: 0 5px;
+ }
+ 
+ .radio-options input[type="radio"] {
+    margin-right: 5px;
+ }
+ 
+ /* Bouton d'envoi */
+ button {
+    width: 100%;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+ }
+ 
+ button:hover {
+    background-color: #333333;
+ }
+ 
+ /* Ligne de séparation */
+ hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+ }
+ 
