@@ -11,7 +11,7 @@ form.addEventListener('submit', e => { // Corrigé 'submitForm' en 'submit'
 }); 
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzXDCzbh0aCpUR_zvvwXs5KDD8blvc67n2SgQh9j5_8-G39pVixxIsOQZcGRuFi0UwY/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxj6gUjRlVh_tUh_-9gHUikv2lROfaAeyMn8i7ZJG7SfZxovbr6V_QAFJOKWAgEOdKL/exec';
 const form = document.forms['evaluationForm'];
 
 form.addEventListener('submit', e => {
